@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(193, 159, 11);
+}
+
+.ortala {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(41, 13, 13)
+}
+
+.d1 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(239, 118, 32);
+    border-radius: 100px;
+}
+
+.d2 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(118, 57, 12);
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+.butonlar {
+    margin-top: 60px;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.butonlar button {
+    background-color: rgb(9, 133, 83);
+    border-radius: 25%;
+}
+.goster{
+    display:block;
+}
+.gizle{
+    display:none;
+}
+.gecis {
+    display:none;
+}
